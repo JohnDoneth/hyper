@@ -36,6 +36,8 @@ extern crate want;
 #[cfg(all(test, feature = "nightly"))]
 extern crate test;
 
+pub use futures::Async;
+
 pub use http::{
     header,
     HeaderMap,
